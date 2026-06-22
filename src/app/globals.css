@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #78716C;
+  --color-secondary: #92400E;
+  --color-accent: #D97706;
+  --color-background: #FFFBEB;
+  --color-foreground: #0F172A;
+  --color-muted: #F6F6F6;
+  --color-border: #EEEDED;
+}
+
+body {
+  background-color: #FFFBEB;
+  color: #0F172A;
+  font-family: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Outfit", ui-sans-serif, system-ui, sans-serif;
+}
